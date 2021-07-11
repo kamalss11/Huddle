@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-1{
+    background: hsl(193, 100%, 96%);
+    background-image: url(bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    position: relative;
+    padding: 0 0 40px 0;
+}
+
+.container-1 .ovrly{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.container-1 .ovrly nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 .ovrly nav .huddle{
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.container-1 .ovrly nav .huddle img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-1 .ovrly nav .huddle{
+    margin-left: 20px;
+}
+
+.container-1 .ovrly nav .free{
+    margin-right: 20px;
+}
+
+.container-1 .ovrly nav .free button{
+    padding: 18px 70px;
+    background: white;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 7px hsl(208, 11%, 55%);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.container-1 .ovrly nav .free button:hover{
+    background: black;
+    color: white;
+}
+
+.container-1 .ovrly .c-m{
+    display: flex;
+    margin-top: 20px;
+}
+
+.container-1 .ovrly .c-m .cm{
+    flex-basis: 50%;
+}
+
+.container-1 .ovrly .c-m .community{
+    padding-top: 40px;
+    box-sizing: border-box;
+    margin: 0 70px;
+}
+
+.container-1 .ovrly .c-m .community .fans{
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.container-1 .ovrly .c-m .community .build{
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+.container-1 .ovrly .c-m .community button{
+    margin-top: 25px;
+    padding: 17px 70px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,hsl(323, 53%, 82%),hsl(322, 100%, 66%));
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-1 .ovrly .c-m .community button:hover{
+    background-image: linear-gradient(to right,hsl(322, 100%, 66%),hsl(323, 53%, 82%));
+}
+
+.container-1 .ovrly .c-m .mock-up{
+    padding-top: 10px;
+    margin: 0 70px;
+}
+
+.container-1 .ovrly .mock-up img{
+    width: 550px;
+    height: 390px;
+}
+
+.container-2{
+    margin: 110px 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.container-2 .cntr{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 35px 65px 35px;
+    box-shadow: 0 0 9px hsl(208, 11%, 55%);
+    box-sizing: border-box;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.container-2 .cntr .cnt,.img{
+    flex-basis: 50%;
+    margin: 0 20px;
+}
+
+.container-2 .cntr .cnt{
+    margin-top: 60px;
+}
+
+.container-2 .cntr .cnt h2{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.container-2 .cntr .cnt p{
+    line-height: 22px;
+    word-spacing: 1.5px;
+    color: hsl(208, 11%, 55%);
+    font-size: 16px;
+}
+
+.container-2 .cntr .img{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 .cntr .img img{
+    width: 310px;
+    height: 220px;
+}
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin: 0 30px;
+}
+
+.container-3 .ready{
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px 100px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.container-3 .ready h2{
+    margin-bottom: 15px;
+}
+
+.container-3 .ready button{
+    padding: 15px 50px; 
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,hsl(322, 100%, 66%),hsl(323, 53%, 82%));
+    color: white;
+    cursor: pointer;
+}
+
+.container-3 .ready button:hover{
+    background-image: linear-gradient(to right,hsl(323, 53%, 82%),hsl(322, 100%, 66%));
+}
+
+footer{
+    background: hsl(192, 100%, 9%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+footer .ftr-cntr{
+    padding: 100px 45px;
+}
+
+footer .ftr-cntr .fr-cntr{
+    flex-basis: 25%;
+    margin: 0 9px;
+}
+
+.ftr-cntr .huddle{
+    margin: 30px 20px;
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.ftr-cntr .huddle img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) invert(1);
+}
+
+.ftr-cntr .fr{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fr-cntr-1 p{
+    line-height: 16px;
+}
+
+.ftr-cntr .fr-cntr-2,.fr-cntr-3,.fr-cntr-4{
+    text-align: center;
+}
+
+.fr-cntr-2 .us,.fr-cntr-3 .us{
+    margin-bottom: 6px;
+}
+
+.fa-map-marker-alt,.fa-phone-alt,.fa-envelope{
+    margin-right: 10px;
+}
+
+footer .ftr-cntr .fr-cntr .p{
+    line-height: 34px;
+}
+
+.ftr-cntr .fr .fr-cntr-1 .loc p{
+    line-height: 20px;
+}
+
+.ftr-cntr .fr .fr-cntr-1 .ph{
+    margin: 25px 0;
+}
+
+.ftr-cntr .fr .fr-cntr-1 .con{
+    display: flex;
+}
+
+.fr-cntr-4 i{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.fr-cntr-4 i:hover{
+    border: 1px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+
+@media(max-width: 1155px){
+    .container-1 .ovrly .c-m{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     
+    .container-1 .ovrly .c-m .cm{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .container-1{
+        height: 780px;
+    }
+}
+
+@media(max-width: 1123px){
+    .container-1{
+        height: 850px;
+    }
+}
+
+@media(max-width: 800px){
+    .container-1 .ovrly .c-m .community .fans {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 870px){
+    .container-2 .cntr{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .container-2 .cntr .cnt,.img{
+        flex-basis: 100%;
+    }
+
+    .container-2 .cntr-2-1,.container-2 .cntr-2-3{
+        flex-direction: column-reverse;
+    }
+
+    .container-2 .cntr .img{
+        margin: 0;
+    }
+}
+
+@media(max-width: 850px){
+    .ftr-cntr .fr {
+        flex-wrap: wrap;
+    }
+
+    footer .ftr-cntr .fr-cntr {
+        flex-basis: 40%;
+        margin: 55px 20px;
+    }
+}
+
+@media(max-width: 765px){
+    .container-3 .ready h2 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 600px){
+    .ftr-cntr .fr {
+        flex-wrap: wrap;
+    }
+
+    footer .ftr-cntr .fr-cntr {
+        flex-basis: 90%;
+        margin: 25px 20px;
+    }
+
+    .ftr-cntr .fr-cntr-2, .fr-cntr-3, .fr-cntr-4 {
+        text-align: left;
+    }
+}
+
+@media(max-width: 650px){
+    .container-1 .ovrly nav .huddle{
+        width: 170px;
+        height: 25px;
+        margin-left: 10px;
+    }
+
+    .container-1 .ovrly nav .free button {
+        margin-top: -5px;
+        padding: 10px 35px;
+    }
+
+    .container-1 .ovrly nav .free {
+        margin-right: 10px;
+    }
+
+    .container-1 .ovrly .mock-up img {
+        width: 450px;
+        height: 320px;
+    }
+
+    .container-1 {
+        height: 800px;
+    }
+}
+
+@media(max-width: 570px){
+    .container-1 .ovrly .c-m .community .fans {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 552px){
+    .container-2 {
+        margin-top: 110px 0;
+    }
+
+    .container-2 .cntr {
+        padding: 35px 20px;
+        margin: 0 20px 65px 20px;
+    }
+}
+
+@media(max-width: 517px){
+    .container-3 .ready h2 {
+        font-size: 15px;
+    }
+
+    .container-3 .ready {
+        padding: 30px 50px;
+    }
+}
+
+@media(max-width: 503px){
+    .container-1 .ovrly .mock-up img {
+        width: 340px;
+        height: 240px;
+    }
+
+    .container-1 {
+        height: 700px;
+    }
+
+    .container-2 .cntr .img img {
+        width: 230px;
+        height: 190px;
+    }
+}
+
+@media(max-width: 400px){
+    .container-3 .ready h2 {
+        font-size: 14px;
+    }
+
+    .container-3 .ready button {
+        padding: 15px 30px;
+    }
+
+    footer .ftr-cntr {
+        padding: 100px 25px;
+    }
+}
+
+@media(max-width: 450px){
+    .container-1 .ovrly .c-m .community {
+        margin: 0 30px;
+        margin-bottom: 50px;
+    }
+
+    .container-1 .ovrly .c-m .community button {
+        margin-top: 25px;
+        padding: 12px 50px;
+    }
+
+    .container-3 .ready button {
+        padding: 12px 30px;
+    }
+
+    .ftr-cntr .huddle {
+        width: 170px;
+        height: 25px;
+    }
+}
